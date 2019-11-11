@@ -1,0 +1,30 @@
+
+
+    .li {
+        background: palegoldenrod;
+    }
+
+    h1 {
+        color:blue;
+        background-color:palevioletred;
+        font-style: italic;
+
+    }
+
+    html{
+       background-image:url('https://www.netpremacy.com/wp-content/uploads/2018/09/Background-website-01.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px;
+    }
+
+    img {
+        border-radius: 50px;
+    }
+/* The alert message box */
+.alert {
+    padding: 60px;
+    background-color: #f44336; /* Red */
+    color: palevioletred;
+    margin-bottom: 15px;
