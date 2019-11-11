@@ -5,9 +5,12 @@
     }
 
     h1 {
+      font-style: italic;
+        font-size: 200px;
         color:blue;
         background-color:palevioletred;
         font-style: italic;
+
 
     }
 
@@ -18,7 +21,10 @@
         background-size: cover;
         height: 800px;
     }
-
+    img {
+        float: right;
+        
+      }
     img {
         border-radius: 50px;
     }
@@ -28,3 +34,16 @@
     background-color: #f44336; /* Red */
     color: palevioletred;
     margin-bottom: 15px;
+}
+ .p {
+     font-style: oblique;
+     font-size: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+
+
+ }
+h2{
+    display: inline;
+    display: inline-block;
+    margin-left: 0px 0px 0px 30px;
+    
