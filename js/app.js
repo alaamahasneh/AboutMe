@@ -8,7 +8,7 @@ if (name == "alaa") {
     alert('That is wrong , it is not' + ' ' + name + ' ' + ' My name is alaa');
 }
 
-console.log('Name=', name);
+//console.log('Name=', name);
 
 var age = prompt('Also whats do you think about my age?');
 if (age == "22") {
@@ -16,7 +16,7 @@ if (age == "22") {
 } else {
     alert('That is wrong , it is not' + ' ' + age + ' ' + 'Im 22 Years old');
 }
-console.log('Age=', age);
+//console.log('Age=', age);
 
 var job = prompt('Now,Do you think that im an Civil Engineer? yes or no?');
 job = job.toLowerCase()
@@ -30,6 +30,7 @@ switch (job) {
         alert('No really im an civil engineer ');
         break;
 }
+//console.log('job=', job);
 
 var fav = prompt('Do you like to creat own website? yes or no?');
 fav = fav.toLowerCase()
