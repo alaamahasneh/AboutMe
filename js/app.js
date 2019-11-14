@@ -121,6 +121,7 @@ switch (q5) {
 
 alert("Your score is: " + counter );
 // (question 6)//
+function age() {
 
 for (var trail = 0; trail < 4; trail++) {
     var old = prompt("Guess how old i am ! Note that : You have 4 trials")
@@ -136,11 +137,14 @@ for (var trail = 0; trail < 4; trail++) {
         // console.log(old);
     }
 }
+function age();
+
 alert("I am 22 years old");
 alert("Your score is: " + counter);
 
 
 //(Question 7)//
+function favouritePets() {
 
     var game = ['cat', 'dog', 'turtles', 'parrot', 'fish', 'hamster'];
     for (var attempt = 0; attempt < 6; attempt++) {
@@ -162,9 +166,9 @@ alert("Your score is: " + counter);
             //  console.log(play);
                 break;
         }}
+        favouritePets();
     
     alert("You got " + counter + " points after completing the quiz");
     alert("Thanks for your time " + user);
-
-
+    }
 
