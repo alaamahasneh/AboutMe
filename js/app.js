@@ -137,7 +137,7 @@ for (var trail = 0; trail < 4; trail++) {
         // console.log(old);
     }
 }
-function age();
+function age(){
 
 alert("I am 22 years old");
 alert("Your score is: " + counter);
@@ -171,4 +171,5 @@ function favouritePets() {
     alert("You got " + counter + " points after completing the quiz");
     alert("Thanks for your time " + user);
     }
-
+}
+}
