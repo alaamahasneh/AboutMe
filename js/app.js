@@ -9,6 +9,8 @@ alert('welcome' + ' ' + userName);
 var counter = 1;
 alert('Now let us start play guss game ^_^ , please answer with yes or no')
 //(Question 1)//
+function q1() {
+    
 
 var q1 = prompt('Do you think that i love cats?').toLocaleUpperCase();
 
@@ -30,7 +32,12 @@ switch (q1) {
         alert('Try again');
         break;
 }
+}
+q1();
 //(Question 2)//
+function q2() {
+    
+
 var q2 = prompt('Do you think my favourite dish is mansaf?').toLocaleUpperCase();
 
 while (q2 !== 'yes'&& q2 !=='y' && q2 !== 'no'&& q2 !=='n') {
@@ -51,7 +58,12 @@ switch (q2) {
         alert('Try again');
         break;
 }
+}
+q2();
 //(Question 3)//
+function q3() {
+    
+
 var q3 = prompt('Do you think im from jordan?"').toLocaleUpperCase();
 
 while (q3 !== 'yes'&& q3 !=='y' && q3 !== 'no'&& q3 !=='n') {
@@ -73,8 +85,12 @@ switch (q3) {
         alert('Try again');
         break;
 }
-
+}
+q3();
 //(Question 4)//
+function q4() {
+    
+
 var q4 = prompt('Do you think that i love programming language?').toLocaleUpperCase();
 
 while (q4 !== 'yes'&& q4 !=='y' && q4 !== 'no'&& q4 !=='n') {
@@ -96,7 +112,12 @@ switch (q4) {
         alert('Try again');
         break;
 }
+}
+q4();
 //(Question 5)//
+function q5() {
+    
+
 var q5 = prompt('do you think that im an civil engineer?').toLocaleUpperCase();
 
 while (q5!== 'yes'&& q5 !=='y' && q5 !== 'no'&& q5 !=='n') {
@@ -118,7 +139,8 @@ switch (q5) {
         alert('Try again');
         break;
 }
-
+}
+q5();
 alert("Your score is: " + counter );
 // (question 6)//
 function age() {
@@ -137,14 +159,15 @@ for (var trail = 0; trail < 4; trail++) {
         // console.log(old);
     }
 }
-function age(){
 
+age();
 alert("I am 22 years old");
 alert("Your score is: " + counter);
 
 
 //(Question 7)//
-function favouritePets() {
+function pet() {
+    
 
     var game = ['cat', 'dog', 'turtles', 'parrot', 'fish', 'hamster'];
     for (var attempt = 0; attempt < 6; attempt++) {
@@ -166,10 +189,12 @@ function favouritePets() {
             //  console.log(play);
                 break;
         }}
-        favouritePets();
+
     
+    pet();
+
     alert("You got " + counter + " points after completing the quiz");
     alert("Thanks for your time " + user);
     }
-}
+
 }
