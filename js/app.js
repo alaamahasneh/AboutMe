@@ -63,7 +63,7 @@ switch (q2) {
         alert(counter=counter+1);
         break;
     default:
-        alert('Try again');
+        alert('Try again ');
         break;
 }
 
@@ -129,7 +129,7 @@ switch (q4) {
 
 
 
-var q5 = prompt('do you think that im an civil engineer?').toLocaleUpperCase();
+var q5 = prompt('Do you think that im an civil engineer?').toLocaleUpperCase();
 
 while (q5 !== 'yes' && q5 !== 'y' && q5 !== 'no' && q5 !== 'n' && q1 !== 'YES' && q1 !== 'NO' && q1 !== 'N' && q1 !== 'Y') {
     q5 = prompt("sorry but this is Yes or No question?")
