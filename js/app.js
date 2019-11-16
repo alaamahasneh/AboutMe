@@ -6,67 +6,73 @@ while (parseInt(userName)) {
 }
 alert('welcome' + ' ' + userName);
 
-var counter = 1;
+
 alert('Now let us start play guss game ^_^ , please answer with yes or no')
 //(Question 1)//
-function q1() {
-    
 
+var counter = 0;
 var q1 = prompt('Do you think that i love cats?').toLocaleUpperCase();
 
-while (q1 !== 'yes'&& q1 !=='y' && q1 !== 'no'&& q1 !=='n') {
+while (q1 !== 'yes' && q1 !== 'y' && q1 !== 'no' && q1 !== 'n' && q1 !== 'YES' && q1 !== 'NO' && q1 !== 'N' && q1 !== 'Y') {
     q1 = prompt('sorry but this is Yes or No question?')
 }
 
 switch (q1) {
     case 'yes':
     case 'y':
+    case 'Y':
+    case 'YES':
         alert('Correct, i love cats so much');
-        alert(counter++);
-                break;
+        alert(counter = counter + 1);
+        break;
     case 'no':
     case 'n':
+    case 'N':
+    case 'NO':
+
         alert('wrong , i love cats');
         break;
     default:
         alert('Try again');
         break;
 }
-}
-q1();
+
 //(Question 2)//
-function q2() {
-    
+
+
 
 var q2 = prompt('Do you think my favourite dish is mansaf?').toLocaleUpperCase();
 
-while (q2 !== 'yes'&& q2 !=='y' && q2 !== 'no'&& q2 !=='n') {
+while (q2 !== 'yes' && q2 !== 'y' && q2 !== 'no' && q2 !== 'n' && q1 !== 'YES' && q1 !== 'NO' && q1 !== 'N' && q1 !== 'Y') {
     q2 = prompt("sorry but this is Yes or No question?")
 }
 
 switch (q2) {
     case 'yes':
     case 'y':
+    case 'Y':
+    case 'YES':
         alert('i dont like mansaf');
-        alert(counter++);
-                break;
+       
+        break;
     case 'no':
     case 'n':
+    case 'N':
+    case 'NO':
         alert('i prefer pizza');
+        alert(counter=counter+1);
         break;
     default:
         alert('Try again');
         break;
 }
-}
-q2();
+
 //(Question 3)//
-function q3() {
-    
+
 
 var q3 = prompt('Do you think im from jordan?"').toLocaleUpperCase();
 
-while (q3 !== 'yes'&& q3 !=='y' && q3 !== 'no'&& q3 !=='n') {
+while (q3 !== 'yes' && q3 !== 'y' && q3 !== 'no' && q3 !== 'n' && q1 !== 'YES' && q1 !== 'NO' && q1 !== 'N' && q1 !== 'Y') {
     q3 = prompt("sorry but this is Yes or No question?")
 
 }
@@ -74,26 +80,28 @@ while (q3 !== 'yes'&& q3 !=='y' && q3 !== 'no'&& q3 !=='n') {
 switch (q3) {
     case 'yes':
     case 'y':
+    case 'Y':
+    case 'YES':
         alert('yah im ');
-        alert(counter++);
-                break;
+        alert(counter=counter+1);
+        break;
     case 'no':
     case 'n':
+    case 'N':
+    case 'NO':
         alert('wrong im jordanin');
         break;
     default:
         alert('Try again');
         break;
 }
-}
-q3();
+
 //(Question 4)//
-function q4() {
-    
+
 
 var q4 = prompt('Do you think that i love programming language?').toLocaleUpperCase();
 
-while (q4 !== 'yes'&& q4 !=='y' && q4 !== 'no'&& q4 !=='n') {
+while (q4 !== 'yes' && q4 !== 'y' && q4 !== 'no' && q4 !== 'n' && q1 !== 'YES' && q1 !== 'NO' && q1 !== 'N' && q1 !== 'Y') {
     q4 = prompt("sorry but this is Yes or No question?")
 
 }
@@ -101,26 +109,29 @@ while (q4 !== 'yes'&& q4 !=='y' && q4 !== 'no'&& q4 !=='n') {
 switch (q4) {
     case 'yes':
     case 'y':
+    case 'Y':
+    case 'YES':
         alert('yah i love it ');
-        alert(counter++);
-                break;
+        alert(counter=counter+1);
+        break;
     case 'no':
     case 'n':
+    case 'N':
+    case 'NO':
         alert('wrong i love it');
         break;
     default:
         alert('Try again');
         break;
 }
-}
-q4();
+
 //(Question 5)//
-function q5() {
-    
+
+
 
 var q5 = prompt('do you think that im an civil engineer?').toLocaleUpperCase();
 
-while (q5!== 'yes'&& q5 !=='y' && q5 !== 'no'&& q5 !=='n') {
+while (q5 !== 'yes' && q5 !== 'y' && q5 !== 'no' && q5 !== 'n' && q1 !== 'YES' && q1 !== 'NO' && q1 !== 'N' && q1 !== 'Y') {
     q5 = prompt("sorry but this is Yes or No question?")
 
 }
@@ -128,28 +139,32 @@ while (q5!== 'yes'&& q5 !=='y' && q5 !== 'no'&& q5 !=='n') {
 switch (q5) {
     case 'yes':
     case 'y':
+    case 'Y':
+    case 'YES':
         alert('yah im ');
-        alert(counter++);
-                break;
+        alert(counter=counter+1);
+        break;
     case 'no':
     case 'n':
+    case 'N':
+    case 'NO':
         alert('wrong im civil engineer');
         break;
     default:
         alert('Try again');
         break;
 }
-}
-q5();
-alert("Your score is: " + counter );
+
+alert("Your score is: " + counter);
 // (question 6)//
-function old() {
-    
+
+
 
 for (var trail = 0; trail < 4; trail++) {
     var old = prompt("Guess how old i am ! Note that : You have 4 trials")
     if (old == 22) {
         alert("Yes exactly! im 22 years old");
+        counter=counter+1;
         // console.log(old);
         break;
     } else if (old > 22) {
@@ -160,40 +175,40 @@ for (var trail = 0; trail < 4; trail++) {
         // console.log(old);
     }
 }
-}
-old();
+
 alert("I am 22 years old");
 alert("Your score is: " + counter);
 
 
 //(Question 7)//
-function pet() {
-    
 
-    var game = ['cat', 'dog', 'turtles', 'parrot', 'fish', 'hamster'];
-    for (var attempt = 0; attempt < 6; attempt++) {
-        var play = prompt("I love 6 different pets ^_^ , So can you guess one of them?");
-        switch (play) {
-            case game[0]:  
-            case game[1]:
-            case game[2]:
-            case game[3]:
-            case game[4]:
-            case game[5]:
-                alert(" You are right :) My fav pets are: cat, dog, turtles, parrot, fish, hamster");
-                counter++;
-                // console.log(play);
-                attempt = 5;
-                break;
-            default:
-                alert("You are rong .. Try again ")
+
+
+var game = ['cat', 'dog', 'turtles', 'parrot', 'fish', 'hamster'];
+for (var attempt = 0; attempt < 6; attempt++) {
+    var play = prompt("I love 6 different pets ^_^ , So can you guess one of them?");
+    switch (play) {
+        case game[0]:
+        case game[1]:
+        case game[2]:
+        case game[3]:
+        case game[4]:
+        case game[5]:
+            alert(" You are right :) My fav pets are: cat, dog, turtles, parrot, fish, hamster");
+            counter=counter+1;
+            // console.log(play);
+            attempt = 5;
+            break;
+        default:
+            alert("You are rong .. Try again ")
             //  console.log(play);
-                break;
-        }}
+            break;
     }
-    pet();
-    alert("You got " + counter + " points after completing the quiz");
-    alert("Thanks for your time " + user);
+}
+
+
+alert("You got " + counter + " points after completing the quiz");
+alert("Thanks for your time " + user);
 
 
 
