@@ -9,8 +9,6 @@ alert('welcome' + ' ' + userName);
 
 alert('Now let us start play guss game ^_^ , please answer with yes or no')
 //(Question 1)//
-function q1() {
-    
 
 var counter = 0;
 var q1 = prompt('Do you think that i love cats?').toLocaleUpperCase();
@@ -38,12 +36,9 @@ switch (q1) {
         alert('Try again');
         break;
 }
-}
-q1 ();
+
 //(Question 2)//
 
-function q2() {
-    
 
 
 var q2 = prompt('Do you think my favourite dish is mansaf?').toLocaleUpperCase();
@@ -71,12 +66,9 @@ switch (q2) {
         alert('Try again ');
         break;
 }
-}
-q2();
+
 //(Question 3)//
 
-function q3() {
-    
 
 var q3 = prompt('Do you think im from jordan?"').toLocaleUpperCase();
 
@@ -103,11 +95,8 @@ switch (q3) {
         alert('Try again');
         break;
 }
-}
-q3 ();
+
 //(Question 4)//
-function q4() {
-    
 
 
 var q4 = prompt('Do you think that i love programming language?').toLocaleUpperCase();
@@ -135,12 +124,8 @@ switch (q4) {
         alert('Try again');
         break;
 }
-}
-q4 ();
 
 //(Question 5)//
-function q5() {
-    
 
 
 
@@ -169,12 +154,9 @@ switch (q5) {
         alert('Try again');
         break;
 }
-}
-q5 ();
+
 alert("Your score is: " + counter);
 // (question 6)//
-function q6() {
-    
 
 
 
@@ -193,16 +175,13 @@ for (var trail = 0; trail < 4; trail++) {
         // console.log(old);
     }
 }
-}
-q6 ();
+
 alert("I am 22 years old");
 alert("Your score is: " + counter);
 
 
 //(Question 7)//
 
-function q7() {
-    
 
 
 var game = ['cat', 'dog', 'turtles', 'parrot', 'fish', 'hamster'];
@@ -226,8 +205,7 @@ for (var attempt = 0; attempt < 6; attempt++) {
             break;
     }
 }
-}
-q7 ();
+
 
 alert("You got " + counter + " points after completing the quiz");
 alert("Thanks for your time " + user);
